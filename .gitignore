@@ -1,0 +1,6 @@
+result
+*.elc
+*~
+.projectile
+local/
+.dir-locals.el
