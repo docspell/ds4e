@@ -19,7 +19,7 @@
 
 ;;; Commentary:
 ;;;
-;;; This provides some integration with dired
+;;; This provides some integration with Dired.
 
 ;;; Code:
 
@@ -47,4 +47,4 @@
 
 
 (provide 'ds4e-dired)
-;;; ds4e-dired ends here
+;;; ds4e-dired.el ends here

@@ -23,6 +23,8 @@
 
 ;;; Code:
 
+(require 'ds4e-helpers)
+
 ;; Available fields of an item
 
 (defconst ds4e-item-field-info

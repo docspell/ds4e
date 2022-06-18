@@ -32,7 +32,7 @@
 ;;; Settings
 
 (defgroup ds4e-search nil
-  "Settings for the search view"
+  "Settings for the search view."
   :group 'ds4e)
 
 (defcustom ds4e-search-page-size

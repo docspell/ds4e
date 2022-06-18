@@ -109,4 +109,4 @@ LEVEL is a symbol defining the severity."
       (format-time-string (or fmt "%Y-%m-%d") (/ ts 1000))
     "-"))
 (provide 'ds4e-helpers)
-;;; ds4e-helpers ends here
+;;; ds4e-helpers.el ends here

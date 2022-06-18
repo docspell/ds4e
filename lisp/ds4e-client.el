@@ -125,4 +125,4 @@ with keys :url and :item-id containing corresponding values."
    (ds4e-client-get-bookmarks)))
 
 (provide 'ds4e-client)
-;;; ds4e-client ends here
+;;; ds4e-client.el ends here

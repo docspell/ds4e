@@ -67,4 +67,4 @@ labels."
 
 
 (provide 'ds4e-mu4e)
-;;; ds4e-mu4e ends here
+;;; ds4e-mu4e.el ends here
