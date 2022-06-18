@@ -114,7 +114,7 @@ Returns a symbol holding the action function. The var
                    groups))))
 
 (defun ds4e-dashboard-list (list-size)
-  "Defines the dashboard section inserting LIST-SIZE items.
+  "Define the dashboard section inserting LIST-SIZE items.
 
 What items to insert is defined by a query `ds4e-dashboard-query'."
   (dashboard-insert-section
@@ -124,8 +124,9 @@ What items to insert is defined by a query `ds4e-dashboard-query'."
      (error nil
             (list "--- Dsc failed. Login? ---")))
    list-size
+   'docspell
    (dashboard-get-shortcut ds4e-dashboard-identifier)
-   `(lambda (&rest ignore)
+   `(lambda (&rest _)
       (and (listp (quote ,el))
            (funcall (ds4e-dashboard--get-action) (quote ,el))))
    (cond ((stringp el) el)
@@ -133,4 +134,4 @@ What items to insert is defined by a query `ds4e-dashboard-query'."
 
 
 (provide 'ds4e-dashboard)
-;;; ds4e-dashboard ends here
+;;; ds4e-dashboard.el ends here
